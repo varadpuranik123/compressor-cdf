@@ -42,10 +42,10 @@ export const Tools = () => {
             <div className=" text-5xl">TOOLS</div>
             <div className="wraper-class grid grid-cols-3 gap-0 justify-around  ">
                 <div className=" card ">
-                    <div className=" w-[400px] h-[200px] space-y-1 border-[3px] rounded-md border-r-[6px] border-black flex flex-col justify-center items-center p-4 ">
+                    <div className=" w-[410px] h-[200px] border-[3px] rounded-md border-r-[6px] border-black flex flex-col justify-center items-center p-4 ">
                         <div className=" w-full flex justify-between ">
-                            <p className=" font-bold text-3xl">OPTIMIZE PDFS</p>
-                            <Image src="optpdf.svg" alt="optpdf" height="25" width="25" />
+                            <p className=" font-bold text-[28px]">OPTIMIZE PDFS</p>
+                            <Image src="optpdf.svg" alt="optpdf" height="28" width="28" />
                         </div>
                         <div className="space-y-2">
                             <div className="space-y-1">
@@ -62,10 +62,10 @@ export const Tools = () => {
                     </div>
                 </div>
                 <div className=" card ">
-                    <div className=" w-[400px] h-[200px] space-y-1 border-[3px] rounded-md border-r-[6px] border-black flex flex-col justify-center items-center p-4 ">
+                    <div className=" w-[410px] h-[200px] border-[3px] rounded-md border-r-[6px] border-black flex flex-col justify-center items-center p-4 ">
                         <div className=" w-full flex justify-between ">
-                            <p className=" font-bold text-3xl">OPTIMIZE PDFS</p>
-                            <Image src="optpdf.svg" alt="optpdf" height="25" width="25" />
+                            <p className=" font-bold text-[28px]">OPTIMIZE PDFS</p>
+                            <Image src="optpdf.svg" alt="optpdf" height="28" width="28" />
                         </div>
                         <div className="space-y-2">
                             <div className="space-y-1">
@@ -82,10 +82,10 @@ export const Tools = () => {
                     </div>
                 </div>
                 <div className=" card ">
-                    <div className=" w-[400px] h-[200px] space-y-1 border-[3px] rounded-md border-r-[6px] border-black flex flex-col justify-center items-center p-4 ">
+                    <div className=" w-[410px] h-[200px] border-[3px] rounded-md border-r-[6px] border-black flex flex-col justify-center items-center p-4 ">
                         <div className=" w-full flex justify-between ">
-                            <p className=" font-bold text-3xl">OPTIMIZE PDFS</p>
-                            <Image src="optpdf.svg" alt="optpdf" height="25" width="25" />
+                            <p className=" font-bold text-[28px]">OPTIMIZE PDFS</p>
+                            <Image src="optpdf.svg" alt="optpdf" height="28" width="28" />
                         </div>
                         <div className="space-y-2">
                             <div className="space-y-1">

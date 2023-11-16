@@ -1,10 +1,10 @@
 import type { Metadata } from 'next'
-import { Roboto } from 'next/font/google'
+import { Inter } from 'next/font/google'
 import './globals.css'
 import { Navbar } from './(main)/_components/navbar'
+import { Footer } from './(main)/_components/footer'
 
-const roboto = Roboto({ 
-  weight: "400",
+const inter = Inter({ 
   subsets: ['latin'],
 })
 
@@ -22,9 +22,10 @@ export default function RootLayout({
     <html lang="en">
       <div className='bg-[#fffff1] text-[#333333]'>
         <Navbar />
-        <main className={roboto.className} >
+        <main className={inter.className} >
           {children}
         </main>
+        <Footer />
       </div>
     </html>
   )
