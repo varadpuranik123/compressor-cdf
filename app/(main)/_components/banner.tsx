@@ -16,7 +16,7 @@ export const Banner = () => {
                     EFFORTLESS PDF COMPRESSION FOR SMOOTHER DIGITAL WORKFLOWS
                 </p>
                 
-                <Link href="/select.tsx"><button className="button-shadow font-semibold text-xl w-80 h-20 hover:bg-[#637CFF] duration-300 hover:text-[#fffff1] stroke border-[3px] rounded-xl border-[#333333] bg-[#fffff1] text-black">
+                <Link href="/select"><button className="button-shadow font-semibold text-xl w-80 h-20 hover:bg-[#637CFF] duration-300 hover:text-[#fffff1] stroke border-[3px] rounded-xl border-[#333333] bg-[#fffff1] text-black">
                 START COMPRESSING NOW!
                 </button></Link>
             </div>

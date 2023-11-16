@@ -1,7 +1,7 @@
 
-export const Select = () => {
+const Select = () => {
     return(
-        <div className="">
+        <div className="h-screen w-full flex items-center justify-center">
             <div className=" uppercase ">
                 <p>Compress Your Documents Effortlessly for More Efficient File Management</p>
                 <p>Shrink PDF Files in Seconds</p>
@@ -18,3 +18,4 @@ export const Select = () => {
         </div>
     )
 }
+export default Select;
