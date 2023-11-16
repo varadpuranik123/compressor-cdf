@@ -42,7 +42,7 @@ export const Tools = () => {
             <div className=" text-5xl">TOOLS</div>
             <div className="wraper-class grid grid-cols-3 gap-0 justify-around  ">
                 <div className=" card ">
-                    <div className=" w-[410px] h-[200px] border-[3px] rounded-md border-r-[6px] border-black flex flex-col justify-center items-center p-4 ">
+                    <div className=" w-[420px] h-[200px] border-[3px] rounded-md border-r-[6px] border-black flex flex-col justify-center items-center p-4 ">
                         <div className=" w-full flex justify-between ">
                             <p className=" font-bold text-[28px]">OPTIMIZE PDFS</p>
                             <Image src="optpdf.svg" alt="optpdf" height="28" width="28" />
@@ -62,7 +62,7 @@ export const Tools = () => {
                     </div>
                 </div>
                 <div className=" card ">
-                    <div className=" w-[410px] h-[200px] border-[3px] rounded-md border-r-[6px] border-black flex flex-col justify-center items-center p-4 ">
+                    <div className=" w-[420px] h-[200px] border-[3px] rounded-md border-r-[6px] border-black flex flex-col justify-center items-center p-4 ">
                         <div className=" w-full flex justify-between ">
                             <p className=" font-bold text-[28px]">OPTIMIZE PDFS</p>
                             <Image src="optpdf.svg" alt="optpdf" height="28" width="28" />
@@ -82,7 +82,7 @@ export const Tools = () => {
                     </div>
                 </div>
                 <div className=" card ">
-                    <div className=" w-[410px] h-[200px] border-[3px] rounded-md border-r-[6px] border-black flex flex-col justify-center items-center p-4 ">
+                    <div className=" w-[420px] h-[200px] border-[3px] rounded-md border-r-[6px] border-black flex flex-col justify-center items-center p-4 ">
                         <div className=" w-full flex justify-between ">
                             <p className=" font-bold text-[28px]">OPTIMIZE PDFS</p>
                             <Image src="optpdf.svg" alt="optpdf" height="28" width="28" />

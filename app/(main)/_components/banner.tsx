@@ -1,6 +1,5 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -8,7 +7,7 @@ export const Banner = () => {
     return(
         <div className="w-[100%] h-screen flex items-center justify-start">
             <div className="flex flex-col items-start justify-start space-y-4 max-w-7xl pl-20 pr-28">
-                <h2 className="text-5xl font-monda font-medium">
+                <h2 className="text-5xl">
                     <span className="font-semibold">COMPRESS</span> YOUR <span className="font-semibold">PDFS</span>
                     <p> WITH EASE</p>
                 </h2>
