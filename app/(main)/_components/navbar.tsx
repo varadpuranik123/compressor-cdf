@@ -11,7 +11,7 @@ const monda = Monda({
 
 export const Navbar = () => {
     return(
-        <div className="w-full fixed flex justify-between items-center bg-[#fffff1] px-16 py-4">
+        <div className="w-full fixed flex justify-between items-center bg-[#fffff1] px-16 py-4 ${monda.variable}">
             <div className="w-full">
                 <Logo />
             </div>
