@@ -1,6 +1,7 @@
 "use client";
 import { Logo } from "./logo"
 import { Monda } from 'next/font/google'
+import  Link  from "next/link";
 
 const monda = Monda({
     weight:"400",
@@ -16,9 +17,9 @@ export const Navbar = () => {
                 <Logo />
             </div>
             <div className="w-full flex space-x-8 font-medium justify-end">
-                <button>Home</button>
-                <button>About Us</button>
-                <button>Help & Support</button>
+                <Link href="">Home</Link>
+                <Link href="">About Us</Link>
+                <Link href="">Help & Support</Link>
             </div>
         </div>
     )
