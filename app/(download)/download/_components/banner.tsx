@@ -11,7 +11,7 @@ export const DownloadBanner = () =>{
             </p>
 
             <button
-            className="button-shadow2 font-semibold text-4xl w-[600px] h-32 hover:bg-[#637CFF] duration-300 hover:text-[#fffff1] stroke border-2 rounded-xl border-black bg-[#fffff1] text-black">
+            className="button-shadow3 font-semibold text-3xl w-[600px] h-32 hover:bg-[#ff6363] duration-300 hover:text-[#fffff1] stroke border-2 rounded-xl border-black bg-[#fffff1] text-black">
                 DOWNLOAD COMPRESSED PDF
             </button>
         </div>
