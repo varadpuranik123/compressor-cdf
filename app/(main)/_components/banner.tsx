@@ -1,6 +1,5 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -8,7 +7,7 @@ export const Banner = () => {
     return(
         <div className="w-[100%] h-screen flex items-center justify-start">
             <div className="flex flex-col items-start justify-start space-y-4 max-w-7xl pl-20 pr-28">
-                <h2 className="text-5xl font-monda ">
+                <h2 className="text-5xl font-monda font-medium">
                     <span className="font-semibold">COMPRESS</span> YOUR <span className="font-semibold">PDFS</span>
                     <p> WITH EASE</p>
                 </h2>
@@ -16,7 +15,7 @@ export const Banner = () => {
                     EFFORTLESS PDF COMPRESSION FOR SMOOTHER DIGITAL WORKFLOWS
                 </p>
                 
-                <Link href="/select.tsx"><button className="button-shadow font-semibold text-xl w-80 h-20 hover:bg-[#637CFF] duration-300 hover:text-[#fffff1] stroke border-[3px] rounded-xl border-[#333333] bg-[#fffff1] text-black">
+                <Link href="/select"><button className="button-shadow font-semibold text-xl w-80 h-20 hover:bg-[#637CFF] duration-300 hover:text-[#fffff1] stroke border-[3px] rounded-xl border-[#333333] bg-[#fffff1] text-black">
                 START COMPRESSING NOW!
                 </button></Link>
             </div>
